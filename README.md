@@ -11,11 +11,19 @@
 ## 使用方法
 
 ### 区分版本
-本软件有三个版本,分别为:Net Bypass Classroom-en-re、Net Bypass Classroom-en、Net Bypass Classroom-zh。
-1.Net Bypass Classroom-en-re(-re为Releases的缩写) 此版本无注释,全英文,适合直接使用的群体。
-2.Net Bypass Classroom-en 此版本有全英文注释,全英文,适合母语为英文又需要查看原理的群体。
-3.Net Bypass Classroom-zh 此版本有中文注释,对话为中文,适合母语为中文又需要查看原理的群体。
 
+本软件有三个版本，分别为：
+- `Net Bypass Classroom-en-re`
+- `Net Bypass Classroom-en`
+- `Net Bypass Classroom-zh`
+
+1. **`Net Bypass Classroom-en-re`**  
+   (-re 为 Releases 的缩写) 此版本无注释，全英文，适合直接使用的群体。
+2. **`Net Bypass Classroom-en`**  
+   此版本有全英文注释，全英文，适合母语为英文又需要查看原理的群体。
+3. **`Net Bypass Classroom-zh`**  
+   此版本有全中文注释，对话为中文，适合母语为中文又需要查看原理的群体。
+   
 ### 解除系统功能限制
 运行脚本后，会自动解除以下注册表项的限制：
 - `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableTaskMgr`
