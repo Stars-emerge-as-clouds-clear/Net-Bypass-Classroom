@@ -39,3 +39,40 @@
 
 ## 许可证
 本项目采用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Windows Feature Unbanning and Process Killing Tool
+
+## Overview
+This project is a VBScript-based tool designed to unban restricted features in the Windows operating system (such as Task Manager, Registry Editor, Command Prompt, etc.) and terminate specified processes. It is useful for quickly restoring system functionality or terminating specific processes.
+
+## Features
+- **Unban System Features**: Modify the registry to unban restrictions on Task Manager, Registry Editor, Command Prompt, and more.
+- **Process Termination**: Allow users to input process names to terminate one or multiple processes.
+- **User-Friendly Interaction**: Interact with users through input boxes and message boxes for an intuitive experience.
+
+## Usage
+
+### Unban System Features
+When the script runs, it will automatically unban the following registry keys:
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableTaskMgr`
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableRegistryTools`
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableCMD`
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoRun`
+
+### Terminate Processes
+After running the script, an input box will prompt you to enter the names of processes to terminate (separated by spaces). For example, entering `notepad.exe calc.exe` will terminate the Notepad and Calculator processes.
+
+## Notes
+- **Administrator Privileges**: Running the script may require administrator privileges to ensure registry and process modifications take effect.
+- **Caution**: Terminating processes may lead to data loss or system instability. Ensure the process names you input are correct and safe.
+
+## Contribution Guidelines
+We welcome contributions of code or suggestions for improvement! Please follow these steps:
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/your-feature-branch`.
+3. Commit your changes: `git commit -m "Your commit message"`.
+4. Submit a Pull Request.
+
+## License
+This project is licensed under the MIT License. For details, see the [LICENSE](LICENSE) file.
