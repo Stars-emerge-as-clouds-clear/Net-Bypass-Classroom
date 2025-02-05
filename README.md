@@ -67,8 +67,8 @@ After running the script, an input box will prompt you to enter the names of pro
 ## Run the Script
 Save the script as a `.vbs` file (e.g., `UnbanAndKillProcesses.vbs`).
 Execute it via the command line:
-```bash
-cscript UnbanAndKillProcesses.vbs
+   ```bash
+   cscript UnbanAndKillProcesses.vbs
 
 ## Notes
 - **Administrator Privileges**: Running the script may require administrator privileges to ensure registry and process modifications take effect.
