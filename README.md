@@ -1,3 +1,5 @@
+[中文文档](#windows-系统功能解除限制与进程终止工具) | [Documentation in English](#windows-feature-unbanning-and-process-killing-tool) 
+
 # Windows 系统功能解除限制与进程终止工具
 
 ## 简介
