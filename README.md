@@ -65,8 +65,8 @@ When the script runs, it will automatically unban the following registry keys:
 After running the script, an input box will prompt you to enter the names of processes to terminate (separated by spaces). For example, entering `notepad.exe calc.exe` will terminate the Notepad and Calculator processes.
 
 ## Run the Script
-Save the script as a `.vbs` file (e.g., `UnbanAndKillProcesses.vbs`).
-Execute it via the command line:
+1.Save the script as a `.vbs` file (e.g., `UnbanAndKillProcesses.vbs`).
+2.Execute it via the command line:
    ```bash
    cscript UnbanAndKillProcesses.vbs
 
