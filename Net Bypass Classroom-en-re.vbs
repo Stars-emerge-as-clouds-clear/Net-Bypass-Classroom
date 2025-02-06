@@ -72,5 +72,4 @@ Sub Main
     End If
 End Sub
 
-' Execute the main subroutine
 Main
