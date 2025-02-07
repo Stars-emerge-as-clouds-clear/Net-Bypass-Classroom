@@ -16,14 +16,17 @@
 
 本软件有三个版本，分别为：
 - `Net Bypass Classroom-en-re`
+- `Net Bypass Classroom-en-sr`
 - `Net Bypass Classroom-en`
 - `Net Bypass Classroom-zh`
 
 1. **`Net Bypass Classroom-en-re`**  
    (-re 为 Releases 的缩写) 此版本无注释，全英文，适合直接使用的群体。
-2. **`Net Bypass Classroom-en`**  
+2. **`Net Bypass Classroom-en-sr`**  
+   (-sr 为 Simplified Release 的缩写) 此版本为阉割版且无注释，全英文，适合直接使用的群体。(阉割了杀进程部分,因为可用任务管理器替代)   
+3. **`Net Bypass Classroom-en`**  
    此版本有全英文注释，全英文，适合母语为英文又需要查看原理的群体。
-3. **`Net Bypass Classroom-zh`**  
+4. **`Net Bypass Classroom-zh`**  
    此版本有全中文注释，对话为中文，适合母语为中文又需要查看原理的群体。
    
 ### 解除系统功能限制
