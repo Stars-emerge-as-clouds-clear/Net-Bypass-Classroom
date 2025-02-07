@@ -73,6 +73,18 @@ This project is a VBScript-based tool designed to unban restricted features in t
 
 ## Usage
 
+### Version Differentiation
+
+This software has three versions, which are as follows:
+1. **Net Bypass Classroom-en-re**  
+   (-re stands for Releases) This version is unannotated, in English only, and is suitable for users who prefer to use it directly.
+2. **Net Bypass Classroom-en-sr**  
+   (-sr stands for Simplified Release) This is a stripped-down version without annotations, in English only, and is suitable for users who prefer to use it directly. (It does not include the process-killing feature, as it can be replaced by the Task Manager)
+3. **Net Bypass Classroom-en**  
+   This version is fully annotated in English, in English only, and is intended for native English speakers who wish to understand the underlying principles.
+4. **Net Bypass Classroom-zh**  
+   This version is fully annotated in Chinese, with Chinese dialogues, and is suitable for native Chinese speakers who wish to understand the underlying principles.
+
 ### Unban System Features
 When the script runs, it will automatically unban the following registry keys:
 - `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableTaskMgr`
