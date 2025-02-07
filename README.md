@@ -14,7 +14,7 @@
 
 ### 区分版本
 
-本软件有三个版本，分别为：
+本软件有四个版本，分别为：
 - `Net Bypass Classroom-en-re`
 - `Net Bypass Classroom-en-sr`
 - `Net Bypass Classroom-en`
@@ -75,7 +75,7 @@ This project is a VBScript-based tool designed to unban restricted features in t
 
 ### Version Differentiation
 
-This software has three versions, which are as follows:
+This software has four versions, which are as follows:
 1. **Net Bypass Classroom-en-re**  
    (-re stands for Releases) This version is unannotated, in English only, and is suitable for users who prefer to use it directly.
 2. **Net Bypass Classroom-en-sr**  
